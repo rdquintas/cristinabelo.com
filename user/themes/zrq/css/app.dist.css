@@ -61,6 +61,34 @@ body.home-page section#body {
     padding: 100px 0 0 0;
 }
 
+#home #parallax4,
+#home #parallax6,
+#home #parallax8,
+{
+    color: white;
+    height: 900px;
+    padding: 100px 0 0 0;
+}
+
+#home #parallax5,
+#home #parallax7,
+#home #parallax9 {
+    color: white;
+    height: 1200px;
+    padding: 100px 0 0 0;
+}
+
+#home .story p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1+h2 {
+    text-align: left;
+}
+
 #home .story {
     margin: 0 auto;
     min-width: 980px;
@@ -68,11 +96,55 @@ body.home-page section#body {
     width: 980px;
 }
 
-#home .story .float-left,
-.story .float-right {
+#home .story {
     padding: 100px 0 0 0;
     position: relative;
-    width: 350px;
+}
+
+#home .story .align-left h1,
+#home .story .align-left h2,
+#home .story .align-left h3,
+#home .story .align-left h4,
+#home .story .align-left h5,
+#home .story .align-left h6,
+#home .story .align-left p {
+    text-align: left;
+}
+
+#home .story .align-right h1,
+#home .story .align-right h2,
+#home .story .align-right h3,
+#home .story .align-right h4,
+#home .story .align-right h5,
+#home .story .align-right h6,
+#home .story .align-right p {
+    text-align: right;
+}
+
+#home .story .align-center h1,
+#home .story .align-center h2,
+#home .story .align-center h3,
+#home .story .align-center h4,
+#home .story .align-center h5,
+#home .story .align-center h6,
+#home .story .align-center p {
+    text-align: center;
+}
+
+#home .story .color-white {
+    color: #fff;
+}
+
+#home .story .color-black {
+    color: #000;
+}
+
+#home .story .color-grey {
+    color: #ddd;
+}
+
+#home .story .color-red {
+    color: red;
 }
 
 /*# sourceMappingURL=app.dist.css.map */
