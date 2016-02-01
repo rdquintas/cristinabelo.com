@@ -1,0 +1,49 @@
+body.home-page section#body {
+    width: 100%;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+#home #parallax1 {
+    color: white;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#home #parallaxLogo {
+    text-align: center;
+    /*color: white;*/
+    /*height: 250px;*/
+    /*margin: 0 auto;*/
+    /*overflow: hidden;*/
+    /*padding: 0;*/
+}
+
+#home #parallax2 {
+    color: white;
+    height: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+#home #parallax3 {
+    color: white;
+    height: 1200px;
+    padding: 100px 0 0 0;
+}
+
+#home .story {
+    margin: 0 auto;
+    min-width: 980px;
+    overflow: auto;
+    width: 980px;
+}
+
+#home .story .float-left,
+.story .float-right {
+    padding: 100px 0 0 0;
+    position: relative;
+    width: 350px;
+}

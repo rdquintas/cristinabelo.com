@@ -1,0 +1,26 @@
+p {
+    font-size: 1.2rem;
+}
+
+ul.navigation a {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#logo img {
+    max-width: 30%;
+    transition: opacity 300ms;
+}
+
+#logo img:hover {
+    opacity: 0.7;
+}
+
+#logo img.logo2 {
+    max-width: 55%;
+}
+
+header#header {
+    box-shadow: none;
+    background-color: #fff;
+}

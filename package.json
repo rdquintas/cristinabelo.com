@@ -1,0 +1,10 @@
+{
+    "name": "ricardoquintas.com",
+    "version": "1.0.0",
+    "dependencies": {
+        "grunt": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-concat": "latest",
+        "grunt-contrib-watch": "latest"
+    }
+}

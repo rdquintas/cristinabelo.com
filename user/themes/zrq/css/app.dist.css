@@ -1,0 +1,78 @@
+p {
+    font-size: 1.2rem;
+}
+
+ul.navigation a {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#logo img {
+    max-width: 30%;
+    transition: opacity 300ms;
+}
+
+#logo img:hover {
+    opacity: 0.7;
+}
+
+#logo img.logo2 {
+    max-width: 55%;
+}
+
+header#header {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+body.home-page section#body {
+    width: 100%;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+#home #parallax1 {
+    color: white;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#home #parallaxLogo {
+    text-align: center;
+    /*color: white;*/
+    /*height: 250px;*/
+    /*margin: 0 auto;*/
+    /*overflow: hidden;*/
+    /*padding: 0;*/
+}
+
+#home #parallax2 {
+    color: white;
+    height: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+#home #parallax3 {
+    color: white;
+    height: 1200px;
+    padding: 100px 0 0 0;
+}
+
+#home .story {
+    margin: 0 auto;
+    min-width: 980px;
+    overflow: auto;
+    width: 980px;
+}
+
+#home .story .float-left,
+.story .float-right {
+    padding: 100px 0 0 0;
+    position: relative;
+    width: 350px;
+}
+
+/*# sourceMappingURL=app.dist.css.map */
