@@ -12,7 +12,8 @@ module.exports = function(grunt) {
 
     var css_files = [
         'user/themes/zrq/css/globals.css',
-        'user/themes/zrq/css/home_page.css'
+        'user/themes/zrq/css/home_page.css',
+        'user/themes/zrq/css/default_page.css'
     ];
 
 

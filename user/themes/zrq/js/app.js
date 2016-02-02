@@ -28,4 +28,9 @@ $(document).ready(function() {
     } else {
         $('body').removeClass("home-page");
     }
+
+    // initialize video formatting
+    if ($('section#default-page').length > 0) {
+        $("video").attr("poster", "transparent.png");
+    }
 });

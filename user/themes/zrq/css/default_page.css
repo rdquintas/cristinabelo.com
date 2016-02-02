@@ -1,0 +1,35 @@
+#default-page {
+    overflow: auto;
+}
+
+#default-page img.align-left {
+    display: block;
+    float: left;
+}
+
+#default-page img.align-right {
+    display: block;
+    float: right;
+}
+
+#default-page img.align-center {
+    display: block;
+    margin: 0 auto;
+}
+
+#default-page img.align-full {
+    width: 100%;
+    max-width: initial;
+}
+
+#default-page video {
+    /*width: 305px;*/
+    /*height: 160px;*/
+    display: block;
+    margin: 0 auto;
+    background: transparent url('http://localhost:8080/user/pages/01.Yoga/poster.jpg') no-repeat 0 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
