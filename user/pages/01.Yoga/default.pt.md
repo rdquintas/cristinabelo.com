@@ -2,23 +2,47 @@
 title: Yoga
 ---
 
-# Yoga (Portuguese)
-
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est possimus sit maiores quisquam, quasi id, perspiciatis rerum ullam at ut aspernatur dignissimos dolores fugit velit ab tempora voluptatem quidem explicabo cum quos delectus error nisi fuga, a. Perferendis modi quis, aut, distinctio porro doloremque eligendi fugit dicta iste, officia reprehenderit nostrum sequi quidem at iusto quod nemo vero quia aperiam assumenda sit unde nisi vitae laudantium ratione? Odio necessitatibus perspiciatis harum labore impedit quas ut deserunt aliquid ea tempore ullam laboriosam, sed quasi ad cum id, illo, nemo nisi illum accusantium aperiam quo. Qui optio dolorem ad. Ullam, corporis, sapiente.
+# Yoga para crianças
 
 ![](ambassador.jpg?classes=align-center)
 
-----
+## O que é o Yoga para crianças?
+Num ambiente divertido e encorajador, onde não entra a competição nem o julgamento, as crianças desenvolvem capacidades importantes.
 
-# Et repellendus
-##Nemo doloremque quod dolorum
-Laborum obcaecati, iusto nostrum nulla impedit aliquid, corporis suscipit, in deserunt eaque soluta voluptatum qui sed dignissimos. Impedit est doloribus numquam officia quos eius, pariatur, sint! Odio at, nesciunt explicabo, fugiat blanditiis ullam debitis vitae nihil iusto sit quas nam, nisi iure tempore minus eaque necessitatibus. Quibusdam dicta neque, laborum ex facilis rem suscipit corporis, ea fugiat cumque provident iusto tempore doloribus, culpa sed eaque, distinctio assumenda placeat vitae! Cum, nihil in ratione ducimus at necessitatibus atque illum iste aliquid.
+- Força interior
+- Auto-aceitação
+- Firmeza
+- Coordenação
+- Equilíbrio e Flexibilidade
+- Consciência do seu corpo
+- Atenção e Concentração
+- Auto-confiança.
 
+##O que se faz numa aula de Yoga para crianças?
+- Equilíbrio entre espontaneidade e estrutura, numa combinação de histórias, música, jogos e posturas
+- As crianças desenvolvem-se num ambiente multi-sensorial, através da aprendizagem visual e auditiva, da sensibilidade dos movimentos e das suas capacidades intra e inter-pessoais. 
+
+##O que é o Yoga para Famílias?
+- É a oportunidade de vivenciar a prática física em família possibilitando um reforço da conexão física e emocional. 
+- Uma sessão em família reúne um adulto (mãe, pai, avó, tio, prima...) e uma criança numa viagem de cocriação e cooperação ao ritmo de cada um. 
+- Massagens, jogos, danças, posturas e relaxamento numa narrativa divertida e memorável para o corpo e para a mente.
 
 ---
 
-#Cum, nihil in ratione ducimus at
+##Grupos Etários
+
+
+- 3-6 anos – aulas de 30 a 45 min
+Aulas com muita energia e diversão, em que cada postura e jogo vai fluindo à velocidade da luz! Muitos adereços e dinâmicas que usam a imaginação até ao momento do relaxamento.
+
+- 7-9 anos – aulas de 45 min
+Aulas cheias de desafios, para promover a coordenação, equilíbrio, força e flexibilidade, jogos de grupo ou a pares, com informação dos benefícios das posturas de Yoga. Exercícios de respiração e relaxamento.
+
+- 10-12 anos – aulas de 1h
+Mais foco na técnica e na precisão das posturas e na importância da respiração profunda e regular. Prática dois-a-dois ou em grupo com vertente mais acrobática. Explicação dos benefícios físicos e mentais da prática.
+
+- Adolescentes – aulas de 1h
+Aulas com desafios físicos e com elementos acrobáticos que requerem máxima concentração. Relaxamento profundo e meditação. Momento de partilha e reflexão. 
 
 
 <!-- ![](img1.jpg?classes=align-left) -->
@@ -26,4 +50,34 @@ Laborum obcaecati, iusto nostrum nulla impedit aliquid, corporis suscipit, in de
 ![](img1.jpg?classes=align-full)
 
 
+#Benefícios do Yoga para crianças
+- Melhora a vitalidade, firmeza e flexibilidade
+- Aumenta a auto-confiança e ajuda a construir uma auto-imagem positiva
+- Aumenta a capacidade emocional
+- Alimenta a criatividade
+- Ajuda a equilibrar corpo e mente
+- Ensina auto-aceitação e amor próprio
+- Desperta os sentidos e também uma maior consciência do próprio corpo
+- Constrói equilíbrio e coordenação
+- Expande a auto-consciência e a consciência pelos outros
+- Desenvolve auto-disciplina e auto-controlo
+- Ajuda a construir uma maior concentração
+- Ajuda a manter uma postura mais erecta
+- Fortifica todos os sistemas do organismo e ajuda a melhorar o nosso conhecimento da anatomia humana
+- Aumenta a consciência da respiração e torna-a mais profunda
+- Não é competitivo
+- Expande a consciência acerca da Natureza, dos animais e do meio ambiente
+- Ajuda cada criança a encontrar e a construir a sua própria força interior
+- Encoraja a cooperação e o trabalho em grupo
+- Ensina a relaxar e a reduzir ansiedade ou tensões
+- Encoraja a compaixão, generosidade e respeito
+- Ensina como encontrar a paz interior
+
+---
+
+#O Yoga é espectacular!!
+
+
 ![](video.mp4?thumbnail=default)
+
+
