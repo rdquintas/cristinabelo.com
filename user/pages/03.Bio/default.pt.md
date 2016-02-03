@@ -1,5 +1,0 @@
----
-title: Bio
----
-
-# Bio - PT 

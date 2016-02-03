@@ -31,7 +31,7 @@ $(document).ready(function() {
 
     // initialize video formatting
     if ($('section#default-page').length > 0) {
-        $("video").attr("poster", "transparent.png");
+        $("video").attr("poster", "images/transparent.png");
     }
 });
 

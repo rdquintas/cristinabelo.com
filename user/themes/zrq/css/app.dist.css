@@ -1,5 +1,10 @@
-p {
-    font-size: 1.2rem;
+#body p,
+#body li {
+    font-size: 1.3rem;
+}
+
+#body p {
+    font-size: 1.3rem;
 }
 
 ul.navigation a {
@@ -23,6 +28,12 @@ ul.navigation a {
 header#header {
     box-shadow: none;
     background-color: #fff;
+}
+
+@media (max-width: 960px) {
+    .langswitcher {
+        display: none;
+    }
 }
 
 body.home-page section#body {
@@ -176,11 +187,38 @@ h1+h2 {
     /*height: 160px;*/
     display: block;
     margin: 0 auto;
-    background: transparent url('http://localhost:8080/user/pages/01.Yoga/poster.jpg') no-repeat 0 0;
+    background: transparent url('../images/poster.jpg') no-repeat 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#bio-page .bio {
+    width: 100%;
+    overflow: auto;
+}
+
+#bio-page .bio img {
+    width: 30%;
+    float: left;
+}
+
+#bio-page .bio .text {
+    padding-left: 2rem;
+    width: 70%;
+    float: left;
+}
+
+@media (max-width: 960px) {
+    #bio-page .bio img,
+    #bio-page .bio .text {
+        width: 100%;
+        clear: both;
+    }
+    #bio-page .bio .half.image {
+        text-align: center;
+    }
 }
 
 /*# sourceMappingURL=app.dist.css.map */

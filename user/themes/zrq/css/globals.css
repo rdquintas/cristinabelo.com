@@ -1,5 +1,10 @@
-p {
-    font-size: 1.2rem;
+#body p,
+#body li {
+    font-size: 1.3rem;
+}
+
+#body p {
+    font-size: 1.3rem;
 }
 
 ul.navigation a {
@@ -23,4 +28,10 @@ ul.navigation a {
 header#header {
     box-shadow: none;
     background-color: #fff;
+}
+
+@media (max-width: 960px) {
+    .langswitcher {
+        display: none;
+    }
 }

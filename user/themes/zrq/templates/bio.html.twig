@@ -1,0 +1,29 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+	<section id="bio-page">
+		<div class="bio">
+			<img src="{{page.media.images|first.url}}">
+	 		<div class="text">
+	 			{{ page.content }}		
+	 		</div>
+	 	</div>
+	 	<hr>
+	 	<div class="contactos">
+	 		<h1>{{ "CONTACT"|t }}</h1>
+			<ul>
+				{% if page.header.telefone is defined %}	
+					<li>{{ "PHONE"|t }}: {{page.header.telefone}}</li>					
+				{% endif %}			
+				{% if page.header.email is defined %}	
+					<li>Email: <a href="mailto:{{page.header.email}}" target="_top">{{page.header.email}}</a></li>	
+				{% endif %}			
+				{% if page.header.skype is defined %}	
+					<li>Skype: {{page.header.skype}}</li>	
+				{% endif %}			
+			</ul>
+	 	</div>
+		
+	</section>
+{% endblock %}
+
