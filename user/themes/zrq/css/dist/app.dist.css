@@ -1,3 +1,7 @@
+/***********************
+ * CENAS
+ ***********************/
+
 #body p,
 #body li {
     font-size: 1.3rem;
@@ -7,10 +11,115 @@
     font-size: 1.3rem;
 }
 
-ul.navigation a {
+header#header {
+    box-shadow: none;
+    background-color: #fff;
+    border-bottom: 8px solid #59edd3;
+    /*border-bottom: 8px solid #F65F5F;*/
+}
+
+
+/***********************
+ * NAVIGATION MENU
+ ***********************/
+
+
+/*pink*/
+
+#header #navbar .color1 {
+    background-color: #F65F5F;
+    color: #454343;
+}
+
+#header #navbar .color1 a {
+    background-color: #F65F5F;
+    color: #454343;
+}
+
+
+/*dark grey*/
+
+#header #navbar .color2 {
+    background-color: #454343;
+    color: #fff;
+}
+
+#header #navbar .color2 a {
+    background-color: #454343;
+    color: #fff;
+}
+
+
+/*green*/
+
+#header #navbar .color3 {
+    background-color: #dcf74a;
+    color: #454343;
+}
+
+#header #navbar .color3 a {
+    background-color: #dcf74a;
+    color: #454343;
+}
+
+
+/*blue*/
+
+#header #navbar .color4 {
+    background-color: #59edd3;
+    color: #454343;
+}
+
+#header #navbar .color4 a {
+    background-color: #59edd3;
+    color: #454343;
+}
+
+#header #navbar ul.navigation {
+    position: relative;
+    top: 54px;
+}
+
+#header #navbar ul.navigation li {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#header #navbar ul.navigation li a {
+    position: relative;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    top: -1px;
     font-size: 1rem;
     text-transform: uppercase;
+    transition: top 200ms;
 }
+
+#header #navbar ul.navigation li {
+    cursor: pointer;
+}
+
+#header #navbar ul.navigation li.active {
+    cursor: initial;
+}
+
+#header #navbar ul.navigation li a:before,
+#header #navbar ul.navigation li a:after {
+    background-color: transparent;
+}
+
+#header #navbar ul.navigation li a:hover {
+    top: -25px
+}
+
+#header #navbar ul.navigation li.active a {
+    top: -25px;
+}
+
+
+/***********************
+ * LOGO
+ ***********************/
 
 #logo img {
     max-width: 30%;
@@ -21,17 +130,63 @@ ul.navigation a {
     opacity: 0.7;
 }
 
-#logo img.logo2 {
+
+/*#logo img.logo2 {
     max-width: 55%;
+    margin-top: -4px;
+}*/
+
+#logo img.logo2 {
+    max-width: 82%;
+    margin-top: -9px;
 }
 
-header#header {
-    box-shadow: none;
-    background-color: #fff;
+
+/***********************
+ * LANG SWITCHER
+ ***********************/
+
+header#header ul.langswitcher {
+    position: absolute;
+    left: -1.9rem;
+    top: initial;
+    transform: initial;
+    display: initial;
 }
+
+header#header ul.langswitcher li a {
+    font-weight: initial;
+    text-decoration: none;
+    color: #000;
+}
+
+header#header ul.langswitcher li a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+
+header#header ul.langswitcher li a.active {
+    pointer-events: none;
+    color: #ddd;
+}
+
+
+/***********************
+ * MERDIA QUERIES
+ ***********************/
 
 @media (max-width: 960px) {
-    .langswitcher {
+    #header #navbar .panel-activation {
+        position: absolute;
+        right: -0.5rem;
+    }
+    #logo img.logo2 {
+        /*width: 250px;*/
+        margin-top: -4px;
+        width: 322px;
+        max-width: initial;
+    }
+    header#header ul.langswitcher {
         display: none;
     }
 }
@@ -102,13 +257,8 @@ h1+h2 {
 
 #home .story {
     margin: 0 auto;
-    min-width: 980px;
     overflow: auto;
-    width: 980px;
-}
-
-#home .story {
-    padding: 100px 0 0 0;
+    padding: 10rem;
     position: relative;
 }
 
@@ -158,6 +308,15 @@ h1+h2 {
     color: red;
 }
 
+@media (max-width: 960px) {
+    #home .story {
+        padding: 2rem;
+    }
+    #home #parallax1 .story {
+        padding-top: 7rem;
+    }
+}
+
 #default-page {
     overflow: auto;
 }
@@ -187,7 +346,7 @@ h1+h2 {
     /*height: 160px;*/
     display: block;
     margin: 0 auto;
-    background: transparent url('../images/poster.jpg') no-repeat 0 0;
+    background: transparent url('../../images/poster.jpg') no-repeat 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -208,6 +367,18 @@ h1+h2 {
     padding-left: 2rem;
     width: 70%;
     float: left;
+}
+
+#bio-page li {
+    list-style-type: none;
+}
+
+#bio-page .contactos i {
+    margin-right: 1rem;
+    font-size: 2rem;
+    position: relative;
+    top: 4px;
+    color: #F65F5F;
 }
 
 @media (max-width: 960px) {

@@ -44,7 +44,7 @@
             {% do assets.addCss('theme://css/vendor/grav/nucleus-ie9.css') %}
             {% do assets.addJs('theme://js/vendor/grav/html5shiv-printshiv.min.js') %}
         {% endif %}
-        {% do assets.addCss('theme://css/app.dist.css') %}
+        {% do assets.addCss('theme://css/dist/app.dist.css') %}
     {% endblock %}
     {{ assets.css() }}
 
@@ -64,16 +64,17 @@
     <div id="sb-site">
         {% block header %}
         <header id="header">
+            {% if config.plugins.langswitcher.enabled %}
+                {% include 'partials/langswitcher.html.twig' %}
+            {% endif %}
             <div id="logo">
                 {# <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3> #}
                 {# <a href="{{ base_url == '' ? '/' : base_url }}"><img src="{{ url('theme://images/logo.jpg') }}"></a> #}
-                <a href="{{ base_url == '' ? '/' : base_url }}"><img class="logo2" src="{{ url('theme://images/logo2.jpg') }}"></a>
+                {# <a href="{{ base_url == '' ? '/' : base_url }}"><img class="logo2" src="{{ url('theme://images/logo2.jpg') }}"></a> #}
+                <a href="{{ base_url == '' ? '/' : base_url }}"><img class="logo2" src="{{ url('theme://images/logo2_transparent.png') }}"></a>
             </div>
             <div id="navbar">
                 {% block header_extra %}{% endblock %}
-                {% if config.plugins.langswitcher.enabled %}
-                {% include 'partials/langswitcher.html.twig' %}
-                {% endif %}
                 {% block header_navigation %}
                 {% include 'partials/navigation.html.twig' %}
                 {% endblock %}
@@ -93,9 +94,9 @@
         {% block footer %}
         <footer id="footer">
             <div class="totop">
-                <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>
+                {# <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span> #}
             </div>
-            <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>
+            <p>Website by <a href="http://www.ricardoquintas.com/">ricardoquintas.com</a></p>
         </footer>
         {% endblock %}
     </div>

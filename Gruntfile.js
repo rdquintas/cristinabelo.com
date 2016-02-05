@@ -101,7 +101,7 @@ module.exports = function(grunt) {
             },
             css_files: {
                 src: css_files,
-                dest: 'user/themes/zrq/css/app.dist.css'
+                dest: 'user/themes/zrq/css/dist/app.dist.css'
             }
         }
 

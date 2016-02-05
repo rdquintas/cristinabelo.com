@@ -64,13 +64,8 @@ h1+h2 {
 
 #home .story {
     margin: 0 auto;
-    min-width: 980px;
     overflow: auto;
-    width: 980px;
-}
-
-#home .story {
-    padding: 100px 0 0 0;
+    padding: 10rem;
     position: relative;
 }
 
@@ -118,4 +113,13 @@ h1+h2 {
 
 #home .story .color-red {
     color: red;
+}
+
+@media (max-width: 960px) {
+    #home .story {
+        padding: 2rem;
+    }
+    #home #parallax1 .story {
+        padding-top: 7rem;
+    }
 }

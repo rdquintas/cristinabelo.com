@@ -3,6 +3,7 @@ title: Bio
 telefone: 939 986 765
 skype: cristina.belo14
 email: info@cristinabelo.com
+linkedin: https://pt.linkedin.com/in/belocristina1971
 ---
 
 ###(English) 

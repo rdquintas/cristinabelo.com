@@ -31,6 +31,20 @@ $(document).ready(function() {
 
     // initialize video formatting
     if ($('section#default-page').length > 0) {
-        $("video").attr("poster", "images/transparent.png");
+        $("video").attr("poster", "user/themes/zrq/images/transparent.png");
     }
+
+    // copy the language switcher into the slide menu
+    $("#header ul.langswitcher li").clone().prependTo(".sb-slidebar ul.navigation");
+
+    // apply the CSS colors to the nav menu (desktop only)
+    var colorNumber = 0;
+    $.each($("#header ul.navigation li"), function(index, value) {
+        colorNumber += 1;
+        $(value).addClass("color" + colorNumber);
+        if (colorNumber >= 4) {
+            colorNumber = 0;
+        }
+    });
+
 });
