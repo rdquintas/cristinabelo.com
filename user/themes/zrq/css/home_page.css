@@ -32,7 +32,7 @@ body.home-page section#body {
 #home #parallax3 {
     color: white;
     height: 800px;
-    padding: 100px 0 0 0;
+    /*padding: 100px 0 0 0;*/
 }
 
 #home #parallax4,
@@ -41,15 +41,15 @@ body.home-page section#body {
 {
     color: white;
     height: 800px;
-    padding: 100px 0 0 0;
+    /*padding: 100px 0 0 0;*/
 }
 
 #home #parallax5,
 #home #parallax7,
 #home #parallax9 {
     color: white;
-    height: 800px;
-    padding: 100px 0 0 0;
+    height: 1200px;
+    padding: -500px 0 0 0;
 }
 
 #home .story p,
