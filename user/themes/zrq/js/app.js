@@ -6,20 +6,18 @@ $(document).ready(function() {
 
         for (var i = 0; i < imagesArr.length; i++) {
             if (i < 10) {
-                switch (i) {
-                    case 0:
-                        speed = 0.1;
-                        break;
-                    case 1:
-                        speed = 0.6;
-                        break;
-                    case 2:
-                        speed = 0.3;
-                        break;
-                    default:
-                        speed = 0.3;
-                        break;
-                }
+                // switch (i) {             
+                //     case 1:
+                //         speed = 0.6;
+                //         break;
+                //     case 2:
+                //         speed = 0.6;
+                //         break;
+                //     default:
+                //         speed = 0.6;
+                //         break;
+                // }
+                speed = 0.6;
                 $('#parallax' + (i + 1)).css("background", "url(" + imagesArr[i] + ") 50% 0 no-repeat fixed");
                 $('#parallax' + (i + 1)).parallax("50%", speed);
             }

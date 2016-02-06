@@ -13,6 +13,7 @@ body.home-page section#body {
 
 #home #parallaxLogo {
     text-align: center;
+    height: auto;
     /*color: white;*/
     /*height: 250px;*/
     /*margin: 0 auto;*/
@@ -22,7 +23,7 @@ body.home-page section#body {
 
 #home #parallax2 {
     color: white;
-    height: 1300px;
+    height: 800px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
@@ -30,7 +31,7 @@ body.home-page section#body {
 
 #home #parallax3 {
     color: white;
-    height: 1200px;
+    height: 800px;
     padding: 100px 0 0 0;
 }
 
@@ -39,7 +40,7 @@ body.home-page section#body {
 #home #parallax8,
 {
     color: white;
-    height: 900px;
+    height: 800px;
     padding: 100px 0 0 0;
 }
 
@@ -47,7 +48,7 @@ body.home-page section#body {
 #home #parallax7,
 #home #parallax9 {
     color: white;
-    height: 1200px;
+    height: 800px;
     padding: 100px 0 0 0;
 }
 
