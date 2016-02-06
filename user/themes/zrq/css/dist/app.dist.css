@@ -18,6 +18,18 @@ header#header {
     /*border-bottom: 8px solid #F65F5F;*/
 }
 
+hr {
+    border-color: #544E4E;
+    padding: 0;
+    margin: 0;
+    border-width: 8px;
+}
+
+hr + .small-line {
+    margin-top: 4px;
+    border-top: 1px solid #544E4E;
+}
+
 
 /***********************
  * NAVIGATION MENU
@@ -168,6 +180,50 @@ header#header ul.langswitcher li a:hover {
 header#header ul.langswitcher li a.active {
     pointer-events: none;
     color: #ddd;
+}
+
+
+/***********************
+ * SIDE BAR MENU
+ ***********************/
+
+#panel .navigation li:first-child {
+    border-top: 0px;
+}
+
+.sb-slidebar ul.navigation li {
+    clear: both;
+}
+
+.sb-slidebar ul.navigation li.language {
+    border: 0px;
+    border-top: 0px;
+    text-align: center;
+    clear: initial;
+    height: 44px;
+    background-color: #666;
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.sb-slidebar ul.navigation li.spacer {
+    margin-bottom: 2rem;
+}
+
+.sb-slidebar ul.navigation li.language a {
+    height: 44px;
+}
+
+
+/***********************
+ * FOOTER
+ ***********************/
+
+footer#footer {
+    color: #666;
+    background-color: #fff;
+    border-top: 8px solid #59edd3;
 }
 
 
