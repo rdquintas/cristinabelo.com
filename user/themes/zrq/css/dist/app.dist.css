@@ -239,11 +239,17 @@ footer#footer {
     #logo img.logo2 {
         /*width: 250px;*/
         margin-top: -4px;
-        width: 322px;
+        width: 90%;
         max-width: initial;
     }
     header#header ul.langswitcher {
         display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    #logo img.logo2 {
+        margin-top: 2%;
     }
 }
 

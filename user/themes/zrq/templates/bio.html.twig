@@ -13,13 +13,14 @@
 	 		<h1>{{ "CONTACT"|t }}</h1>
 			<ul>
 				{% if page.header.telefone is defined and page.header.telefone is not null %}	
-					<li><i class="fa fa-phone-square"></i> {{ "PHONE"|t }}: {{page.header.telefone}}</li>				
+					{# <li><i class="fa fa-phone-square"></i> {{ "PHONE"|t }}: {{page.header.telefone}}</li>				 #}
+					<li><i class="fa fa-phone-square"></i>{{page.header.telefone}}</li>					
 				{% endif %}			
 				{% if page.header.email is defined and page.header.email is not null %}	
-					<li><i class="fa fa-envelope-square"></i> Email: <a href="mailto:{{page.header.email}}" target="_top">{{page.header.email}}</a></li>	
+					<li><i class="fa fa-envelope-square"></i><a href="mailto:{{page.header.email}}" target="_top">{{page.header.email}}</a></li>	
 				{% endif %}			
 				{% if page.header.skype is defined and page.header.skype is not null %}	
-					<li><i class="fa fa-skype"></i>Skype: {{page.header.skype}}</li>	
+					<li><i class="fa fa-skype"></i>{{page.header.skype}}</li>	
 				{% endif %}
 				{% if page.header.linkedin is defined and page.header.linkedin is not null %}	
 					<li><i class="fa fa-linkedin-square"></i><a href="mailto:{{page.header.linkedin}}" target="_top">Linkedin</a></li>
