@@ -19,7 +19,11 @@ $(document).ready(function() {
                 // }
                 speed = 0.6;
                 $('#parallax' + (i + 1)).css("background", "url(" + imagesArr[i] + ") 50% 0 no-repeat fixed");
-                $('#parallax' + (i + 1)).parallax("50%", speed);
+
+                if ($(window).width() > 900) {
+                    $('#parallax' + (i + 1)).parallax("50%", speed);
+                }
+
             }
         }
         $('body').addClass("home-page");
