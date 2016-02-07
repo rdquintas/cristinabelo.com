@@ -93,11 +93,11 @@ module.exports = function(grunt) {
             },
             js_files_vendor: {
                 src: js_files_vendor,
-                dest: 'user/themes/zrq/js/libs.dist.js'
+                dest: 'user/themes/zrq/js/dist/libs.dist.js'
             },
             js_files: {
                 src: js_files,
-                dest: 'user/themes/zrq/js/app.dist.js'
+                dest: 'user/themes/zrq/js/dist/app.dist.js'
             },
             css_files: {
                 src: css_files,

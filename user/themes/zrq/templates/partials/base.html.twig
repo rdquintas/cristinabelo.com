@@ -53,8 +53,8 @@
         {% do assets.addJs('theme://js/vendor/grav/modernizr.custom.71422.js',100) %}
         {% do assets.addJs('theme://js/vendor/grav/antimatter.js') %}
         {% do assets.addJs('theme://js/vendor/grav/slidebars.min.js') %}
-        {% do assets.addJs('theme://js/libs.dist.js') %}
-        {% do assets.addJs('theme://js/app.dist.js') %}        
+        {% do assets.addJs('theme://js/dist/libs.dist.js') %}
+        {% do assets.addJs('theme://js/dist/app.dist.js') %}        
     {% endblock %}
     {{ assets.js() }}
     <script>
