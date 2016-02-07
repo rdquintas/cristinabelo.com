@@ -49,10 +49,4 @@ $(document).ready(function() {
         }
     });
 
-
-    // add extra div to all HR elements, for special styling
-    $.each($("hr"), function(index, value) {
-        $(value).after("<div class='small-line'></div>");
-    });
-
 });

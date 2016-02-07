@@ -14,20 +14,14 @@
 header#header {
     box-shadow: none;
     background-color: #fff;
-    border-bottom: 8px solid #59edd3;
+    border-bottom: 8px solid rgba(89, 237, 211, 0.22);
     /*border-bottom: 8px solid #F65F5F;*/
 }
 
 hr {
-    border-color: #544E4E;
-    padding: 0;
-    margin: 0;
-    border-width: 8px;
-}
-
-hr + .small-line {
-    margin-top: 4px;
-    border-top: 1px solid #544E4E;
+    border-color: rgba(89, 237, 211, 0.22);
+    /*padding: 0;*/
+    /*margin: 0;*/
 }
 
 
@@ -223,7 +217,7 @@ header#header ul.langswitcher li a.active {
 footer#footer {
     color: #666;
     background-color: #fff;
-    border-top: 8px solid #59edd3;
+    border-top: 8px solid rgba(89, 237, 211, 0.22);
 }
 
 
