@@ -23,7 +23,7 @@
 }
 
 #default-page video {
-    width: 100%;
+    width: 450px;
     /*height: 160px;*/
     display: block;
     margin: 0 auto;
@@ -32,4 +32,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media (max-width: 960px) {
+    #default-page video {
+        width: 100%;
+    }
 }
