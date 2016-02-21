@@ -4,6 +4,8 @@ telefone: 939 986 765
 skype: cristina.belo14
 email: info@cristinabelo.com
 linkedin: https://pt.linkedin.com/in/belocristina1971
+facebook: https://www.facebook.com/cristina.belo.714?fref=ts
+instagram: https://www.instagram.com/cris_belo
 ---
 
 ###Lorem ipsum dolor sit amet, consectetur adipisicing.

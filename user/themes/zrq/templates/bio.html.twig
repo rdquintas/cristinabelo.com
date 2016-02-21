@@ -24,7 +24,13 @@
 				{% endif %}
 				{% if page.header.linkedin is defined and page.header.linkedin is not null %}	
 					<li><i class="fa fa-linkedin-square"></i><a href="{{page.header.linkedin}}" target="_top">Linkedin</a></li>
-				{% endif %}				
+				{% endif %}
+				{% if page.header.facebook is defined and page.header.facebook is not null %}	
+					<li><i class="fa fa-facebook-square"></i><a href="{{page.header.facebook}}" target="_top">Facebook</a></li>
+				{% endif %}	
+				{% if page.header.instagram is defined and page.header.instagram is not null %}	
+					<li><i class="fa fa-instagram"></i><a href="{{page.header.instagram}}" target="_top">Instagram</a></li>
+				{% endif %}	
 			</ul>
 	 	</div>
 		
