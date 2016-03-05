@@ -3,15 +3,17 @@
     overflow: auto;
 }
 
+#bio-page .bio-image {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 #bio-page .bio img {
-    width: 30%;
-    float: left;
+    max-width: 100%;
 }
 
 #bio-page .bio .text {
-    padding-left: 2rem;
-    width: 70%;
-    float: left;
+    width: 100%;
 }
 
 #bio-page li {
