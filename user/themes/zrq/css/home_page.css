@@ -5,6 +5,10 @@ body.home-page section#body {
     overflow-y: hidden;
 }
 
+#home p {
+    margin: 0;
+}
+
 #home #parallax1 {
     color: white;
     height: 800px;
