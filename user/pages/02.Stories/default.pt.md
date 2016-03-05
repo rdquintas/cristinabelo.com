@@ -8,6 +8,10 @@ title: Stories
 ####Title 4
 
 
+#Isto é um mailto
+<a href="mailto:info@cristinabelo.com/">Click to send me an email!!</a>
+
+
 #Stories 
 
 Era uma vez um rapaz chamado simão que adorava fazer música electrónica. por isso passava muito tempo agarrado ao seu computador. demasiado tempo ao ponto de perder a noção do tempo. 
