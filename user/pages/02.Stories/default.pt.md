@@ -2,6 +2,12 @@
 title: Stories
 ---
 
+#Title 1
+##Title 2
+###Title 3
+####Title 4
+
+
 #Stories 
 
 Era uma vez um rapaz chamado simão que adorava fazer música electrónica. por isso passava muito tempo agarrado ao seu computador. demasiado tempo ao ponto de perder a noção do tempo. 
