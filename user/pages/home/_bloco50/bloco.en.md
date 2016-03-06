@@ -1,7 +1,5 @@
 ---
-title: Titulo Bloco 5 PT
-text_align: right
-text_color: white
+title: Titulo Bloco 5 EN
 show_image: true
 background_color: "#fff"
 ---

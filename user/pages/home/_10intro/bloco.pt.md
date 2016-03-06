@@ -1,15 +1,12 @@
 ---
 title: Titulo Bloco 1 PT
-text_align: left
-text_color: white
 show_image: false
 background_color: "#fff"
 ---
 
 
-This is some [u]bb style underline[/u] and not much else
-This is [size=30]bigger text[/size] and this is [color=blue]blue text[/color]
-
+[color=#000]This is some [u]bb style underline[/u] and not much else
+This is [size=30]bigger text[/size] and this is blue text[/color]
 
 
 #Portugues

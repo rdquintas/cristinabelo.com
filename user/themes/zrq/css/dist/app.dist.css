@@ -380,52 +380,6 @@ h1+h2 {
     position: relative;
 }
 
-#home .story .align-left h1,
-#home .story .align-left h2,
-#home .story .align-left h3,
-#home .story .align-left h4,
-#home .story .align-left h5,
-#home .story .align-left h6,
-#home .story .align-left p {
-    text-align: left;
-}
-
-#home .story .align-right h1,
-#home .story .align-right h2,
-#home .story .align-right h3,
-#home .story .align-right h4,
-#home .story .align-right h5,
-#home .story .align-right h6,
-#home .story .align-right p {
-    text-align: right;
-}
-
-#home .story .align-center h1,
-#home .story .align-center h2,
-#home .story .align-center h3,
-#home .story .align-center h4,
-#home .story .align-center h5,
-#home .story .align-center h6,
-#home .story .align-center p {
-    text-align: center;
-}
-
-#home .story .color-white {
-    color: #fff;
-}
-
-#home .story .color-black {
-    color: #000;
-}
-
-#home .story .color-grey {
-    color: #ddd;
-}
-
-#home .story .color-red {
-    color: red;
-}
-
 @media (max-width: 960px) {
     #home .story {
         padding: 2rem;
