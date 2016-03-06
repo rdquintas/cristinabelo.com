@@ -2,6 +2,8 @@
 title: Titulo Bloco 3 PT
 text_align: center
 text_color: black
+show_image: true
+background_color: "#fff"
 ---
 
 #Lorem ipsum dolor sit amet

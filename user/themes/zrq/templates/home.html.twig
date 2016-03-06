@@ -5,7 +5,14 @@
 	<script>
 	var imagesArr = [];
 	{% for module in page.collection() %}
-		imagesArr.push("{{module.media.images|first.url}}")
+	{{dump(module.header.background_color)}}
+		{% if module.header.show_image == true %}	
+			imagesArr.push("{{module.media.images|first.url}}")
+		{% else %}
+			imagesArr.push(null)
+		{% endif %}
+
+		
 	{% endfor %}
 	</script>
 
