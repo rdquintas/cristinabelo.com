@@ -1,10 +1,11 @@
 {
-    "name": "ricardoquintas.com",
-    "version": "1.0.0",
-    "dependencies": {
-        "grunt": "latest",
-        "grunt-contrib-jshint": "latest",
-        "grunt-contrib-concat": "latest",
-        "grunt-contrib-watch": "latest"
-    }
+  "name": "ricardoquintas.com",
+  "version": "1.0.0",
+  "dependencies": {
+    "grunt": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-standard": "^2.0.0"
+  }
 }
