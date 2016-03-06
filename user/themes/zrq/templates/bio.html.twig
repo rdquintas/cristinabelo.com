@@ -3,12 +3,7 @@
 {% block content %}
 	<section id="bio-page">
 		<div class="bio">
-			<div class="bio-image">
-				<img src="{{page.media.images|first.url}}">
-			</div>
-	 		<div class="text">
-	 			{{ page.content }}		
-	 		</div>
+	 		{{ page.content }}
 	 	</div>
 	 	<hr>
 	 	<div class="contactos">

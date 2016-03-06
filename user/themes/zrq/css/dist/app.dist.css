@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h1 + h2,
-h2 + h3 {    
+h2 + h3 {
     font-weight: 700;
     line-height: 1.2;
     margin: 0;
@@ -58,6 +58,26 @@ header#header {
 
 hr {
     border-color: rgba(89, 237, 211, 0.22);
+}
+
+img.align-left {
+    display: block;
+    float: left;
+}
+
+img.align-right {
+    display: block;
+    float: right;
+}
+
+img.align-center {
+    display: block;
+    margin: 0 auto;
+}
+
+img.align-full {
+    width: 100%;
+    max-width: initial;
 }
 
 
@@ -419,26 +439,6 @@ h1+h2 {
     overflow: auto;
 }
 
-#default-page img.align-left {
-    display: block;
-    float: left;
-}
-
-#default-page img.align-right {
-    display: block;
-    float: right;
-}
-
-#default-page img.align-center {
-    display: block;
-    margin: 0 auto;
-}
-
-#default-page img.align-full {
-    width: 100%;
-    max-width: initial;
-}
-
 #default-page video {
     width: 450px;
     /*height: 160px;*/
@@ -462,17 +462,8 @@ h1+h2 {
     overflow: auto;
 }
 
-#bio-page .bio-image {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-#bio-page .bio img {
+#bio-page img {
     max-width: 100%;
-}
-
-#bio-page .bio .text {
-    width: 100%;
 }
 
 #bio-page li {

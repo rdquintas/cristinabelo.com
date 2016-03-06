@@ -2,26 +2,6 @@
     overflow: auto;
 }
 
-#default-page img.align-left {
-    display: block;
-    float: left;
-}
-
-#default-page img.align-right {
-    display: block;
-    float: right;
-}
-
-#default-page img.align-center {
-    display: block;
-    margin: 0 auto;
-}
-
-#default-page img.align-full {
-    width: 100%;
-    max-width: initial;
-}
-
 #default-page video {
     width: 450px;
     /*height: 160px;*/
