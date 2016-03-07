@@ -314,80 +314,75 @@ body.home-page section#body {
     margin: 0;
 }
 
-#home #parallax1 {
-    color: white;
-    height: 800px;
-    margin: 0 auto;
-    padding: 0;
-}
+// #home #parallax1 {
+//     color: white;
+//     height: 800px;
+//     margin: 0 auto;
+//     padding: 0;
+// }
 
-#home #parallaxLogo {
-    text-align: center;
-    height: auto;
-    /*color: white;*/
-    /*height: 250px;*/
-    /*margin: 0 auto;*/
-    /*overflow: hidden;*/
-    /*padding: 0;*/
-}
+// #home #parallaxLogo {
+//     text-align: center;
+//     height: auto;
+// }
 
-#home #parallax2 {
-    color: white;
-    height: 800px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 0;
-}
+// #home #parallax2 {
+//     color: white;
+//     height: 800px;
+//     margin: 0 auto;
+//     overflow: hidden;
+//     padding: 0;
+// }
 
-#home #parallax3 {
-    color: white;
-    height: 800px;
-    /*padding: 100px 0 0 0;*/
-}
+// #home #parallax3 {
+//     color: white;
+//     height: 800px;
+//     /*padding: 100px 0 0 0;*/
+// }
 
-#home #parallax4,
-#home #parallax6,
-#home #parallax8,
-{
-    color: white;
-    height: 800px;
-    /*padding: 100px 0 0 0;*/
-}
+// #home #parallax4,
+// #home #parallax6,
+// #home #parallax8,
+// {
+//     color: white;
+//     height: 800px;
+//     padding: 100px 0 0 0;
+// }
 
-#home #parallax5,
-#home #parallax7,
-#home #parallax9 {
-    color: white;
-    height: 1200px;
-    padding: -500px 0 0 0;
-}
+// #home #parallax5,
+// #home #parallax7,
+// #home #parallax9 {
+//     color: white;
+//     height: 1200px;
+//     padding: -500px 0 0 0;
+// }
 
-#home .story p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-h1+h2 {
-    text-align: left;
-}
+// #home .story p,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// h1+h2 {
+//     text-align: left;
+// }
 
-#home .story {
-    margin: 0 auto;
-    overflow: auto;
-    padding: 10rem;
-    position: relative;
-}
+// #home .story {
+//     margin: 0 auto;
+//     overflow: auto;
+//     padding: 10rem;
+//     position: relative;
+// }
 
-@media (max-width: 960px) {
-    #home .story {
-        padding: 2rem;
-    }
-    #home #parallax1 .story {
-        padding-top: 7rem;
-    }
-}
+// @media (max-width: 960px) {
+//     #home .story {
+//         padding: 2rem;
+//     }
+//     #home #parallax1 .story {
+//         padding-top: 7rem;
+//     }
+// }
 
 #default-page {
     overflow: auto;

@@ -1,32 +1,32 @@
 var $ = window.$
-var imagesArr
+// var imagesArr
 
 $(document).ready(function () {
   // Initialize Parallax on Home Page
   if ($('section#home').length > 0) {
-    var speed = 0
+    // var speed = 0
 
-    for (var i = 0; i < imagesArr.length; i++) {
-      if (i < 10 && imagesArr[i] !== null) {
-        // switch (i) {
-        //     case 1:
-        //         speed = 0.6
-        //         break
-        //     case 2:
-        //         speed = 0.6
-        //         break
-        //     default:
-        //         speed = 0.6
-        //         break
-        // }
-        speed = 0.6
-        $('#parallax' + (i + 1)).css('background', 'url(' + imagesArr[i] + ') 50% 0 no-repeat fixed')
+    // for (var i = 0; i < imagesArr.length; i++) {
+    //   if (i < 10 && imagesArr[i] !== null) {
+    //     // switch (i) {
+    //     //     case 1:
+    //     //         speed = 0.6
+    //     //         break
+    //     //     case 2:
+    //     //         speed = 0.6
+    //     //         break
+    //     //     default:
+    //     //         speed = 0.6
+    //     //         break
+    //     // }
+    //     speed = 0.6
+    //     $('#parallax' + (i + 1)).css('background', 'url(' + imagesArr[i] + ') 50% 0 no-repeat fixed')
 
-        if ($(window).width() > 900) {
-          $('#parallax' + (i + 1)).parallax('50%', speed)
-        }
-      }
-    }
+    //     if ($(window).width() > 900) {
+    //       $('#parallax' + (i + 1)).parallax('50%', speed)
+    //     }
+    //   }
+    // }
     $('body').addClass('home-page')
   } else {
     $('body').removeClass('home-page')
