@@ -328,6 +328,160 @@ body.home-page section#body {
     margin: 0;
 }
 
+body,
+html {
+    overflow: hidden;
+}
+body {
+    font: 100% / 1.5 Arial;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.parallax {
+    height: 500px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+    -webkit-perspective-origin-x: 100%;
+    perspective-origin-x: 100%;
+}
+
+.parallax-group {
+    position: relative;
+    height: 500px;
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.parallax-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform-origin-x: 100%;
+    transform-origin-x: 100%;
+}
+
+.layer-fore {
+    -webkit-transform: translateZ(90px) scale(.7);
+    transform: translateZ(90px) scale(.7);
+    z-index: 1;
+}
+
+.layer-base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+}
+
+.layer-back {
+    -webkit-transform: translateZ(-300px) scale(2);
+    transform: translateZ(-300px) scale(2);
+    z-index: 3;
+}
+
+.layer-deep {
+    -webkit-transform: translateZ(-600px) scale(3);
+    transform: translateZ(-600px) scale(3);
+    z-index: 2;
+}
+
+.parallax {
+    font-size: 200%;
+}
+
+.title {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#group1 {
+    z-index: 5;
+    /* slide over group 2 */
+}
+
+#group1 .layer-base {
+    /*background: rgb(102, 204, 102);*/
+    background-image: url('http://placehold.it/1600x600/6C6/000?text=group1');
+    background-position: center;
+}
+
+#group2 {
+    z-index: 3;
+    /* slide under groups 1 and 3 */
+}
+
+#group2 .layer-back {
+    /*background: rgb(123, 210, 102);*/
+    background-image: url('http://placehold.it/1600x600/7BD266/fff?text=group2');
+    background-position: center;
+}
+
+#group3 {
+    z-index: 4;
+    /* slide over group 2 and 4 */
+}
+
+#group3 .layer-base {
+    /*background: rgb(153, 216, 101);*/
+    background-image: url('http://placehold.it/1600x600/99D865/fff?text=group3');
+    background-position: center;
+}
+
+#group4 {
+    z-index: 2;
+    /* slide under group 3 and 5 */
+}
+
+#group4 .layer-deep {
+    /*background: rgb(184, 223, 101);*/
+    background-image: url('http://placehold.it/1600x600/B8DF65/fff?text=group4');
+    background-position: center;
+}
+
+#group5 {
+    z-index: 3;
+    /* slide over group 4 and 6 */
+}
+
+#group5 .layer-base {
+    /*background: rgb(214, 229, 100);*/
+    background-image: url('http://placehold.it/1600x600/D6E564/fff?text=group5');
+    background-position: center;
+}
+
+#group6 {
+    z-index: 2;
+    /* slide under group 5 and 7 */
+}
+
+#group6 .layer-back {
+    /*background: rgb(245, 235, 100);*/
+    background-image: url('http://placehold.it/1600x600/F5EB64/fff?text=group6');
+    background-position: center;
+}
+
+#group7 {
+    z-index: 3;
+    /* slide over group 7 */
+}
+
+#group7 .layer-base {
+    /*background: rgb(255, 241, 100);*/
+    background-image: url('http://placehold.it/1600x600/FFF164/fff?text=group7');
+    background-position: center;
+}
+
 #default-page {
     overflow: auto;
 }
