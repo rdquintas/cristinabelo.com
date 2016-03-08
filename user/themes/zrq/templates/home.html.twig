@@ -2,31 +2,9 @@
 
 {% block content %}
 	<section id="home">
-	<script>
-	var imagesArr = [];
-	{% for module in page.collection() %}
-	{{dump(module.header.background_color)}}
-		{% if module.header.show_image == true %}	
-			imagesArr.push("{{module.media.images|first.url}}")
-		{% else %}
-			imagesArr.push(null)
-		{% endif %}
-
-		
-	{% endfor %}
-	</script>
-
 	<section class="page-home">		
 		{% for module in page.collection() %}
-			<div id="parallax{{loop.index}}">
 			{{ module.content }}
-			</div>
-	{# 		{% if loop.index == 1 %}	
-				<div id="parallaxLogo">
-					<img src="{{ url('theme://images/logo.jpg') }}">
-				</div> 	
-			{% endif %}	 #}	
     	{% endfor %}
-	</section>
-	
+	</section>	
 {% endblock %}

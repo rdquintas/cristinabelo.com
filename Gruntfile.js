@@ -1,8 +1,8 @@
 module.exports = function (grunt) {
   var js_files_vendor = [
-    'user/themes/zrq/js/vendor/jquery.parallax-1.1.3.js',
-    'user/themes/zrq/js/vendor/jquery.localscroll-1.2.7-min.js',
-    'user/themes/zrq/js/vendor/jquery.scrollTo-1.4.2-min.js'
+    // 'user/themes/zrq/js/vendor/jquery.parallax-1.1.3.js',
+    // 'user/themes/zrq/js/vendor/jquery.localscroll-1.2.7-min.js',
+    // 'user/themes/zrq/js/vendor/jquery.scrollTo-1.4.2-min.js'
   ]
 
   var js_files = [

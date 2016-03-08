@@ -1,4 +1,15 @@
-<div class="story">
-	{# <h2>{{page.header.title}}</h2> #}
-    <p>{{page.content}}</p>
-</div> 
+{% if page.header.show_image == true %}	
+	<section class="module parallax" style="background-image: url('{{page.media.images|first.url}}')">
+		<div class="container">
+	    	{{page.content}}
+	    </div>
+	</section>
+{% else %}
+	<section class="module content" style="background-color: {{page.header.background_color}}">
+		<div class="container">
+			{{page.content}}
+		</div>
+	</section>
+{% endif %}
+
+
