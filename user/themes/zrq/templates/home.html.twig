@@ -1,10 +1,17 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-	<section id="home">
-	<section class="page-home parallax">		
+	<section id="home" class="page-home">
+		<div class="parallax">
 		{% for module in page.collection() %}
-			{{ module.content }}
+			{% if loop.first %}
+				<div class="first-block">
+				{{ module.content }}
+				</div>
+			{% else %}
+				{{ module.content }}
+		    {% endif %}
     	{% endfor %}
+    	</div>
 	</section>	
 {% endblock %}

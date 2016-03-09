@@ -22,3 +22,49 @@ body.home-page section#body {
 #home p {
     margin: 0;
 }
+
+// =============================
+// body,
+// html {
+//     margin: 0;
+//     padding: 0;
+//     height: 100%;
+//     font-family: sans-serif;
+// }
+
+#home .parallax .layer {
+    position: relative;
+    text-indent: -9999px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#home .parallax .big_image {
+    background-image: url(img2.jpg);
+    height: 100vh;
+}
+
+#home .parallax .small_image {
+    height: 50vh;
+    background-image: url(img1.jpg);
+}
+
+#home .parallax .capture {
+    float: right;
+    width: 200px;
+    padding: 1em;
+    margin: -1.5em 1em 0 0;
+    text-indent: 0;
+    background: rgba(243, 243, 243, 0.75);
+    box-shadow: 0 1px 0.125em #333;
+}
+
+#home .container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#home section {
+    padding: 3em;
+}

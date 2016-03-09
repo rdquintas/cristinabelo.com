@@ -1,71 +1,28 @@
 {% if page.header.show_image == true %}	
 	<style type="text/css">
-	.{{page.folder}}  {
-    	z-index: 5;
-	}
-	.{{page.folder}} .layer-back{
-		background-image: url('{{page.media.images|first.url}}');
+	.{{page.folder}} {
+		background-image: url({{page.media.images|first.url}});
 		background-position: center;
 	}
 	</style>
 {% else %}
-	<style type="text/css">	
+	<style type="text/css">		
 	.{{page.folder}} {
-		z-index: 3;
-	}
-	.{{page.folder}} .layer-base{
 		background-color: #ddd;
-	/*	background-image: url('{{page.media.images|first.url}}')
-		background-position: center;*/
 	}	
 	</style>
 {% endif %}
 
 
-
 {% if page.header.show_image == true %}	
-	<section class="{{page.folder}} parallax-group">
-		<div class="parallax-layer layer-base">
-			<div class="title">page.content</div>
-		</div>
-		<div class="parallax-layer layer-back">
-			{# <div class="title">Background Layer</div> #}
-		</div>
-	</section> 
+   <div class="layer big_image {{page.folder}}">
+        <div class="capture">Caption for this beautiful break image, Caption for this beautiful break image, Caption for this beautiful break image, Caption for this beautiful break image.</div>
+   </div>
 {% else %}
-	<section class="{{page.folder}} parallax-group">
-		<div class="parallax-layer layer-base">
-			<div class="title">page.content</div>
+	<section>
+		<div class="{{page.folder}} container">
+		 	page.content
 		</div>
 	</section>
 {% endif %}
 
-{#
-
-	<section class="module parallax" style="background-image: url('{{page.media.images|first.url}}')">
-		<div class="container">
-	    	{{page.content}}
-	    </div>
-	</section>
-
-
-	<section class="module content" style="background-color: {{page.header.background_color}}">
-		<div class="container">
-			{{page.content}}
-		</div>
-	</section>
-
-
-<div id="group1" class="parallax-group">
-	<div class="parallax-layer layer-base">
-		<div class="title">Base Layer</div>
-	</div>
-</div>
-<div id="group2" class="parallax-group">
-	<div class="parallax-layer layer-base">
-		<div class="title">Base Layer</div>
-	</div>
-	<div class="parallax-layer layer-back">
-		<div class="title">Background Layer</div>
-	</div>
-</div> #}
