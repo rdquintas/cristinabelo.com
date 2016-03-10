@@ -321,21 +321,16 @@ body.home-page section#body {
 #home h5,
 #home h6,
 #home h1+h2 {
-    // text-align: left;
+    text-align: center;
 }
 
 #home p {
     margin: 0;
 }
 
-// =============================
-// body,
-// html {
-//     margin: 0;
-//     padding: 0;
-//     height: 100%;
-//     font-family: sans-serif;
-// }
+#home .parallax {
+    padding-bottom: 5rem;
+}
 
 #home .parallax .layer {
     position: relative;
@@ -345,28 +340,38 @@ body.home-page section#body {
     background-size: cover;
 }
 
-#home .parallax .big_image {
-    background-image: url(img2.jpg);
+#home .parallax .block-image .capture {
+    display: none;
+}
+
+#home .parallax .first-block .block-image .capture {
+    display: block;
+}
+
+#home .parallax .first-block .block-image {
     height: 100vh;
 }
 
-#home .parallax .small_image {
+#home .parallax .block-image {
     height: 50vh;
-    background-image: url(img1.jpg);
 }
 
-#home .parallax .capture {
-    float: right;
-    width: 200px;
-    padding: 1em;
-    margin: -1.5em 1em 0 0;
+#home .parallax .block-image .capture {
+    padding: 20em;
+    margin: 0 auto;
     text-indent: 0;
-    background: rgba(243, 243, 243, 0.75);
-    box-shadow: 0 1px 0.125em #333;
 }
 
-#home .container {
-    width: 600px;
+#home .parallax .block-image .capture > * {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+#home .block-text {
+    text-align: center;
+    padding-left: 12rem;
+    padding-right: 12rem;
     margin: 0 auto;
 }
 

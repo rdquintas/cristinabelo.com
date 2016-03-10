@@ -5,23 +5,13 @@
 		background-position: center;
 	}
 	</style>
-{% else %}
-	<style type="text/css">		
-	.{{page.folder}} {
-		background-color: #ddd;
-	}	
-	</style>
-{% endif %}
-
-
-{% if page.header.show_image == true %}	
-   <div class="layer big_image {{page.folder}}">
-        <div class="capture">Caption for this beautiful break image, Caption for this beautiful break image, Caption for this beautiful break image, Caption for this beautiful break image.</div>
+   <div class="layer block-image {{page.folder}}">
+        <div class="capture">{{page.content}}</div>
    </div>
 {% else %}
 	<section>
-		<div class="{{page.folder}} container">
-		 	page.content
+		<div class="block-text">		 	
+		 	{{page.content}} 
 		</div>
 	</section>
 {% endif %}
