@@ -379,6 +379,20 @@ body.home-page section#body {
     padding: 3em;
 }
 
+@media (max-width: 960px) {
+    #home .block-text {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #home section {
+        padding: 1em;
+    }
+    #home .parallax .block-image .capture {
+        padding: 0rem;
+        padding-top: 12rem;
+    }
+}
+
 #default-page {
     overflow: auto;
 }
