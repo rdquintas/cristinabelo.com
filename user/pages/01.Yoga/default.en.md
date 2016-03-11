@@ -2,80 +2,62 @@
 title: Yoga
 ---
 
-# Yoga para crianças (English)
-
 ![](ambassador.jpg?classes=align-center)
 
-## O que é o Yoga para crianças?
-Num ambiente divertido e encorajador, onde não entra a competição nem o julgamento, as crianças desenvolvem capacidades importantes.
+## What is Kids Yoga?
+Children develop important skills in a fun and encouraging atmosphere, judgement-free and no competition involved.
 
-- Força interior
-- Auto-aceitação
-- Firmeza
-- Coordenação
-- Equilíbrio e Flexibilidade
-- Consciência do seu corpo
-- Atenção e Concentração
-- Auto-confiança.
+- Inner strength
+- Self-acceptance
+- Vigour
+- Coordination
+- Balance and flexibility
+- Self-body awareness
+- Focus and concentration
+- Self-confidence
 
-##O que se faz numa aula de Yoga para crianças?
-- Equilíbrio entre espontaneidade e estrutura, numa combinação de histórias, música, jogos e posturas
-- As crianças desenvolvem-se num ambiente multi-sensorial, através da aprendizagem visual e auditiva, da sensibilidade dos movimentos e das suas capacidades intra e inter-pessoais. 
-
-##O que é o Yoga para Famílias?
-- É a oportunidade de vivenciar a prática física em família possibilitando um reforço da conexão física e emocional. 
-- Uma sessão em família reúne um adulto (mãe, pai, avó, tio, prima...) e uma criança numa viagem de cocriação e cooperação ao ritmo de cada um. 
-- Massagens, jogos, danças, posturas e relaxamento numa narrativa divertida e memorável para o corpo e para a mente.
-
----
-
-##Grupos Etários
+![](23yoga.jpg?classes=align-center)
 
 
-- 3-6 anos – aulas de 30 a 45 min
-Aulas com muita energia e diversão, em que cada postura e jogo vai fluindo à velocidade da luz! Muitos adereços e dinâmicas que usam a imaginação até ao momento do relaxamento.
+##What happens in a Kids Yoga class?
+- There is a combination of stories, music, games and poses, balancing spontaneity and structure.
+- Children develop in a multi-sensorial environment, learning by watching and listening, moving and interacting. 
 
-- 7-9 anos – aulas de 45 min
-Aulas cheias de desafios, para promover a coordenação, equilíbrio, força e flexibilidade, jogos de grupo ou a pares, com informação dos benefícios das posturas de Yoga. Exercícios de respiração e relaxamento.
+##What is Family Yoga?
+- It is a wonderful opportunity to share yoga practice, reinforcing the physical and emotional connection in a fun way.
+- A family session gathers a grown-up (mum, dad, granny, cousin, godmother...) and a child (from the age of 3 years). Together they will make a journey of co-creation and cooperation, always respecting each other’s rhythm.
+- Massage, games, dances, poses, breathing and relaxation are all part of a memorable and super-fun story to the body and mind.
 
-- 10-12 anos – aulas de 1h
-Mais foco na técnica e na precisão das posturas e na importância da respiração profunda e regular. Prática dois-a-dois ou em grupo com vertente mais acrobática. Explicação dos benefícios físicos e mentais da prática.
-
-- Adolescentes – aulas de 1h
-Aulas com desafios físicos e com elementos acrobáticos que requerem máxima concentração. Relaxamento profundo e meditação. Momento de partilha e reflexão. 
-
-
-<!-- ![](img1.jpg?classes=align-left) -->
-<!-- ![](ambassador.jpg?classes=align-right) -->
-![](img1.jpg?classes=align-full)
-
-
-#Benefícios do Yoga para crianças
-- Melhora a vitalidade, firmeza e flexibilidade
-- Aumenta a auto-confiança e ajuda a construir uma auto-imagem positiva
-- Aumenta a capacidade emocional
-- Alimenta a criatividade
-- Ajuda a equilibrar corpo e mente
-- Ensina auto-aceitação e amor próprio
-- Desperta os sentidos e também uma maior consciência do próprio corpo
-- Constrói equilíbrio e coordenação
-- Expande a auto-consciência e a consciência pelos outros
-- Desenvolve auto-disciplina e auto-controlo
-- Ajuda a construir uma maior concentração
-- Ajuda a manter uma postura mais erecta
-- Fortifica todos os sistemas do organismo e ajuda a melhorar o nosso conhecimento da anatomia humana
-- Aumenta a consciência da respiração e torna-a mais profunda
-- Não é competitivo
-- Expande a consciência acerca da Natureza, dos animais e do meio ambiente
-- Ajuda cada criança a encontrar e a construir a sua própria força interior
-- Encoraja a cooperação e o trabalho em grupo
-- Ensina a relaxar e a reduzir ansiedade ou tensões
-- Encoraja a compaixão, generosidade e respeito
-- Ensina como encontrar a paz interior
+![](29yoga.jpg?classes=align-center)
 
 ---
 
-#O Yoga é espectacular!!
+##Age Groups
+
+- 3-5 years – 30 to 45 minute class
+
+Lots of energy and fun. Each pose and game fly off! Many props and group dynamics call on the imagination until quiet time. 
+
+- 6-9 years – 45 to 60 minute class
+
+Lots of challenges in order to promote coordination, balance, strength and flexibility, group or partner games. Information on the benefits of yoga poses. Breathing exercises and relaxation.
+- 10-12 years – 60 minute class
+
+Focus on poses’ technique and precision as well as on the importance of deep and regular breathing. Partner or group practice, exercising acrobatic yoga. Explanation of yoga’s physical and mental benefits.
+- Teens – 60 minute class
+
+Physical challenges with acrobatic exercises, which demand great concentration. Deep relaxation and meditation. Moment of reflexion and sharing about a theme.
+
+![](family.jpg?classes=align-center)
+
+
+#10 Benefits of Kids Yoga
+1. Increases self-confidence 
+2. Builds a positive self-image3. Is non-competitive4. Teaches self-acceptance and self-love5. Builds balance and coordination6. Develops self-discipline and self-control7. Increases awareness of breathing 8. Helps children build inner strength9. Encourages cooperation and teamwork10. Teaches how to relax and reduce stress
+
+---
+
+#It is always more fun to do yoga together!!
 
 
 ![](video.mp4?thumbnail=default)
