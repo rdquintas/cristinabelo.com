@@ -13,6 +13,3 @@ As a little girl I said I wanted to become an air hostess when I grew up. I beca
 
 ###To book a trial session of yoga and storytelling
 ###Call or email me now! 
-
-
-![](cb_bio.jpg?classes=align-center)

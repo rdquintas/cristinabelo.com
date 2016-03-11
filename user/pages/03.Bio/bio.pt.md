@@ -14,6 +14,3 @@ Quando era pequenina dizia que queria ser hospedeira. Fui jornalista na Máxima 
 
 ###Para marcar uma sessão experimental de yoga com histórias
 ###Escreva ou telefone!
-
-
-![](cb_bio.jpg?classes=align-center)
