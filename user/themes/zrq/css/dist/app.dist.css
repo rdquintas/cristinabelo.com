@@ -80,6 +80,11 @@ img.align-full {
     max-width: initial;
 }
 
+audio {
+    display: block;
+    margin: 0 auto;
+}
+
 
 /***********************
  * NAVIGATION MENU
