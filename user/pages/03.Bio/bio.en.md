@@ -3,14 +3,12 @@ title: Bio
 telefone: 939 986 765
 skype: cristina.belo14
 email: info@cristinabelo.com
-linkedin: https://pt.linkedin.com/in/belocristina1971
+linkedin: 
 facebook: https://www.facebook.com/cristina.belo.714?fref=ts
 instagram: https://www.instagram.com/cris_belo
 ---
 
-###Lorem ipsum dolor sit amet, consectetur adipisicing.
+As a little girl I said I wanted to become an air hostess when I grew up. I became a journalist for an interior design magazine, Máxima Interiores. I wrote about houses and their inhabitants. I am a professional storyteller and I never renounced to my dream of flying. I travel everytime I share a book, a story or a yoga session with kids and grown-ups. I am certified by Rainbow Kids Yoga to teach yoga to kids and families. I feel that everyone ends up happier and smiling more after a Yoga&Stories experience.
 
-![](cristinabelo.jpg?classes=align-center)
-
-####Eos ex nobis laudantium
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt harum vitae, autem debitis eos, incidunt recusandae. Perferendis deleniti minus in ut velit, odit, id, suscipit incidunt quae eveniet, veritatis adipisci similique labore modi. Recusandae quas nesciunt delectus expedita atque enim rem sed aliquid qui non! Obcaecati provident quidem beatae vitae at laborum accusantium, dignissimos assumenda non, necessitatibus nobis modi vero corrupti unde dicta officiis ipsam aliquid asperiores distinctio eligendi. Magnam accusamus, saepe aperiam iusto porro, amet necessitatibus animi doloribus ex reiciendis quas maxime! Perspiciatis, maxime, fuga? Quod, a, impedit! Aliquid eveniet quaerat distinctio, corporis molestias voluptates. Nemo recusandae, ab quia.
+###To book a trial session of yoga and storytelling
+###Call or email me now!

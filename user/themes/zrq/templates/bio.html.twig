@@ -7,7 +7,7 @@
 	 	</div>
 	 	
 	 	<div class="contactos">
-	 		<h3>{{ "CONTACT"|t }}</h3>
+	 		{# <h3>{{ "CONTACT"|t }}</h3> #}
 			<ul>
 				{% if page.header.telefone is defined and page.header.telefone is not null %}	
 					{# <li><i class="fa fa-phone-square"></i> {{ "PHONE"|t }}: {{page.header.telefone}}</li>				 #}
@@ -31,6 +31,10 @@
 			</ul>
 	 	</div>
 		
+		<div class="bio-image">
+			<img src="{{page.media.images|first.url}}">			
+		</div>
+
 	</section>
 {% endblock %}
 
