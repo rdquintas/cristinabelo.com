@@ -9,6 +9,11 @@ body.home-page section#body {
     margin-top: 4rem;
 }
 
+#home img {
+    max-width: initial;
+    width: 100%
+}
+
 #home h1,
 #home h2,
 #home h3,
