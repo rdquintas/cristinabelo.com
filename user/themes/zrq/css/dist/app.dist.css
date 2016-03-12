@@ -287,6 +287,20 @@ footer#footer {
  ***********************/
 
 @media (max-width: 960px) {
+    h1 {
+        font-size: 2.074em;
+    }
+    h2,
+    h1 + h2 {
+        font-size: 1.728em;
+    }
+    h3,
+    h2 + h3 {
+        font-size: 1.44em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
     #header #navbar .panel-activation {
         position: absolute;
         right: -0.5rem;
@@ -358,7 +372,7 @@ body.home-page section#body {
 }
 
 #home .parallax .block-image {
-    height: 50vh;
+    height: 70vh;
 }
 
 #home .parallax .block-image .capture {
@@ -384,7 +398,20 @@ body.home-page section#body {
     padding: 3em;
 }
 
+#home .block-image-mobile {
+    display: none;
+}
+
 @media (max-width: 960px) {
+    #home .parallax {
+        margin-top: 6rem;
+    }
+    #home .block-image-mobile {
+        display: block;
+    }
+    #home .block-image {
+        display: none;
+    }
     #home .block-text {
         padding-right: 0;
         padding-left: 0;

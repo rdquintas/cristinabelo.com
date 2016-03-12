@@ -48,7 +48,7 @@ body.home-page section#body {
 }
 
 #home .parallax .block-image {
-    height: 50vh;
+    height: 70vh;
 }
 
 #home .parallax .block-image .capture {
@@ -74,7 +74,20 @@ body.home-page section#body {
     padding: 3em;
 }
 
+#home .block-image-mobile {
+    display: none;
+}
+
 @media (max-width: 960px) {
+    #home .parallax {
+        margin-top: 6rem;
+    }
+    #home .block-image-mobile {
+        display: block;
+    }
+    #home .block-image {
+        display: none;
+    }
     #home .block-text {
         padding-right: 0;
         padding-left: 0;
