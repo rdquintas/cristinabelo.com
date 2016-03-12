@@ -49,6 +49,11 @@ h2 + h3 {
     margin: 0;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 header#header {
     max-width: 1600px;
     box-shadow: none;
@@ -287,6 +292,9 @@ footer#footer {
  ***********************/
 
 @media (max-width: 960px) {
+    iframe {
+        width: 100%;
+    }
     h1 {
         font-size: 2.074em;
     }
@@ -424,7 +432,7 @@ body.home-page section#body {
         padding-top: 12rem;
     }
 }
-1
+
 #default-page {
     overflow: auto;
 }
