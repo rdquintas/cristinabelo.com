@@ -70,8 +70,7 @@ body.home-page section#body {
 
 #home .block-text {
     text-align: center;
-    padding-left: 12rem;
-    padding-right: 12rem;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -94,8 +93,9 @@ body.home-page section#body {
         display: none;
     }
     #home .block-text {
-        padding-right: 0;
-        padding-left: 0;
+        width: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     #home section {
         padding: 1em;
