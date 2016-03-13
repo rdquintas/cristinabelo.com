@@ -469,6 +469,10 @@ body.home-page section#body {
     max-width: 100%;
 }
 
+#bio-page .bio-image {
+    text-align: center;
+}
+
 #bio-page li {
     list-style-type: none;
 }
