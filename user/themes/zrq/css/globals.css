@@ -3,7 +3,7 @@
  ***********************/
 
 html {
-    max-width: 1600px;
+    // max-width: 1600px;
 }
 
 #body p,
@@ -55,7 +55,7 @@ iframe {
 }
 
 header#header {
-    max-width: 1600px;
+    // max-width: 1600px;
     box-shadow: none;
     background-color: #fff;
     border-bottom: 8px solid rgba(89, 237, 211, 0.22);
