@@ -3,7 +3,7 @@
  ***********************/
 
 html {
-    max-width: 1600px;
+    // max-width: 1600px;
 }
 
 #body p,
@@ -49,8 +49,13 @@ h2 + h3 {
     margin: 0;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 header#header {
-    max-width: 1600px;
+    // max-width: 1600px;
     box-shadow: none;
     background-color: #fff;
     border-bottom: 8px solid rgba(89, 237, 211, 0.22);
@@ -287,6 +292,23 @@ footer#footer {
  ***********************/
 
 @media (max-width: 960px) {
+    iframe {
+        width: 100%;
+    }
+    h1 {
+        font-size: 2.074em;
+    }
+    h2,
+    h1 + h2 {
+        font-size: 1.728em;
+    }
+    h3,
+    h2 + h3 {
+        font-size: 1.44em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
     #header #navbar .panel-activation {
         position: absolute;
         right: -0.5rem;
@@ -309,7 +331,7 @@ footer#footer {
 }
 
 body.home-page section#body {
-    max-width: 1600px;
+    // max-width: 1600px;
     width: 100%;
     padding: 0;
     overflow-y: hidden;
@@ -317,6 +339,11 @@ body.home-page section#body {
 
 #home .page-home {
     margin-top: 4rem;
+}
+
+#home img {
+    max-width: initial;
+    width: 100%
 }
 
 #home h1,
@@ -358,7 +385,7 @@ body.home-page section#body {
 }
 
 #home .parallax .block-image {
-    height: 50vh;
+    height: 70vh;
 }
 
 #home .parallax .block-image .capture {
@@ -375,8 +402,7 @@ body.home-page section#body {
 
 #home .block-text {
     text-align: center;
-    padding-left: 12rem;
-    padding-right: 12rem;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -384,10 +410,24 @@ body.home-page section#body {
     padding: 3em;
 }
 
+#home .block-image-mobile {
+    display: none;
+}
+
 @media (max-width: 960px) {
+    #home .parallax {
+        margin-top: 6rem;
+    }
+    #home .block-image-mobile {
+        display: block;
+    }
+    #home .block-image {
+        display: none;
+    }
     #home .block-text {
-        padding-right: 0;
-        padding-left: 0;
+        width: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     #home section {
         padding: 1em;
@@ -422,11 +462,14 @@ body.home-page section#body {
 
 #bio-page .bio {
     width: 100%;
-    overflow: auto;
 }
 
 #bio-page img {
     max-width: 100%;
+}
+
+#bio-page .bio-image {
+    text-align: center;
 }
 
 #bio-page li {
